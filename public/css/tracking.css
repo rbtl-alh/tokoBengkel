@@ -1,0 +1,56 @@
+.header{
+    padding: 120px;
+    background: blueviolet;
+}
+
+/* .container{
+    padding: 7rem;
+} */
+
+.tracking-container {
+    /* height: 60vh; */
+    padding-bottom: 5rem;
+    font-size: 50px;
+    /* padding-top: 5rem; */
+}
+
+.container{
+    padding-bottom: 4rem;
+}
+
+.tracking-title {
+    /* height: 45vh; */
+    background-color: #003d33;
+}
+
+.tracking-title h1 {
+    padding: 120px 50px;
+    color: #F1C066;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.tracking-contents{
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.tracking-searchbar {
+    width: 500px;
+}
+
+.tracking-table{
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 20px;
+  }
+
+  .card-header {
+    background-color: #DFB15C !important;
+    color: #003d33 ;
+    font-weight: bolder;
+    /* width: 600px; */
+}

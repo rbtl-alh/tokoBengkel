@@ -1,0 +1,547 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+section{
+	padding: 0;
+	position: relative;
+	height: 620px;
+}
+
+/*///////////////multi////////////////*/
+.awn-kanan{
+	width: 30%;
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: -10%;
+}
+.awn-kanan img{
+	max-width: 250px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: 0;
+}
+
+/*==Welcome Euphoria Brawijayans========================*/
+.welcome {
+    background-image: url('../images/Background.png'); 
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.img-fluid{
+	display: block;
+	position: absolute;
+	max-width: 50%;
+	top: 10%;
+	left: 10%;
+}
+.img-fluid:empty{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.AwanW-Atas{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	top: 10%;
+}
+.AwanW-Atas img{
+	max-width: 450px;
+	min-width: 175px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 3%;
+}
+.manusia{
+	width: 30%;
+	height: 20%;
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+}
+.manusia img{
+	max-width: 320px;
+	min-width: 175px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+}
+.awn-kiri{
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: -12%;
+	z-index: 2;
+}
+.awn-kiri img{
+	max-width: 650px;
+	min-width: 230px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+@media only screen and (max-width: 1000px){
+	.AwanW-Atas {top: -9px;}
+}
+@media only screen and (max-width: 430px) {
+	.img-fluid { max-width: 90%; }
+	.awn-kiri {bottom: -35px;}
+}
+@media screen and (orientation: landscape) {
+	.img-fluid {max-height: 90%;}
+}
+
+
+/*==WHAT'S ON=========================================== */
+.whats-on {
+    background-image: url('../images/bg-WhatsOn.png');
+    background-size: cover;
+    background-size: 100% 100%;
+	width: 100%;
+}
+.desk{
+	color: white;
+	text-align: left;
+	display: flex;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10rem;
+}
+.jdl-wn{
+	width: 70%;
+	height: 40%;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	z-index: 2;
+}
+.jdl-wn img{
+	max-width: 950px;
+	min-width: 280px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 3%;
+}
+.awn-kanan-wn{
+	width: 30%;
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: -10%;
+	z-index: 1;
+}
+.awn-kanan-wn img{
+	max-width: 250px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.flex-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	position: absolute;
+	top: 65%;
+	z-index: 2;
+  }
+.flex-container > div {
+	background-color: #ffffff;
+	max-width: 250px;
+	width: 100%;
+	height: 150px;
+	margin: 10px;
+	flex-basis: 200px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+@media (min-width: 430px) and (max-width: 1200px){
+	.flex-container > div {
+		max-width: 130px;
+		height: 30%;
+	}
+	.flex-container{
+		top: 65%;
+	}
+	.desk{
+		top: 5rem;
+		left: 3rem;
+	}
+}
+@media only screen and (max-width: 600px){
+	.flex-container > div {
+		max-width: 100px;
+		height: 30%;
+	}
+	.flex-container{
+		top: 60%;
+	}
+	.desk{
+		font-size: 0.8rem;
+		top: 3rem;
+	}
+}
+@media only screen and (max-width: 430px){
+	.flex-container > div {
+		max-width: 98px;
+		height: 30%;
+	}
+	.flex-container{
+		top: 65%;
+	}	
+	.desk{
+		font-size: 0.8rem;
+		top: 2rem;
+	}	
+}
+
+/*==Community========================================*/
+.community {
+	position: relative;
+    background-image: url('../images/bg-OurCom.png');
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+/*community---sponsor*/
+.awn-kiriatas{
+	width: 30%;
+	height: 20%;
+	position: absolute;
+	left: -3%;
+	top: -35%;
+	z-index: 1;
+}
+.awn-kiriatas img{
+	max-width: 250px;
+	width: 100%;
+	height: auto;
+	top: 0;
+}
+/*end*/
+.awn-kanancom{
+	width: 40%;
+	height: 30%;
+	position: absolute;
+	right: 0;
+	top: -30%;
+}
+.awn-kanancom img{
+	max-width: 450px;
+	min-width: 175px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 10%;
+}
+.awn-kiricom{
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: -12%;
+	z-index: 2;
+}
+.awn-kiricom img{
+	max-width: 650px;
+	min-width: 230px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.jdl-com{
+	width: 70%;
+	height: 30%;
+	position: absolute;
+	left: 10%;
+	top: -5%;
+	z-index: 1;
+}
+.jdl-com img{
+	max-width: 900px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+@media (min-width: 430px) and (max-width: 1200px){
+	.awn-kanancom img{
+		top: 50%;
+	}
+	.awn-kiriatas{
+		top: -25%;
+	}
+	.flex-container-com > div {
+		max-width: 25%;
+		max-height: 25%;
+		flex-basis: 250px;
+		margin: 3px;
+	}
+	.flex-container-com{
+		top: 55%;
+		left: 0;
+		justify-content: space-around;
+	}
+
+}
+@media only screen and (max-width: 600px){
+	.awn-kanancom img{
+		top: 65%;
+	}
+	.awn-kiriatas{
+		top: -15%;
+	}
+	.flex-container-com > div {
+		max-width: 30%;
+		height: 100px;
+		margin: 3px;
+		line-height: 100px;
+	}
+	.flex-container-com{
+		top: 55%;
+		left: 0;
+		justify-content: space-around;
+
+	}
+}
+
+
+/*==Guest Star====================================*/
+.guest-star {
+    background-image: url('../images/bg-GS.png');
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.jdl-gs{
+	position: absolute;
+	top: 3%;
+	left: 30%;
+	z-index: 2;
+}
+.jdl-gs img{
+	max-width: 775px;
+	width: 100%;
+	height: auto;
+	top: 5%;
+}
+@media only screen and (max-width: 600px){
+	.jdl-gs{
+		max-width: 75%;
+		left: 10%;
+	}
+}
+
+/*==Sponsor===================================*/
+.sponsors {
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+}
+.jdl-spnsr{
+	position: absolute;
+	right: 200px;
+	top: 15px;
+	left: 75px;
+	z-index: 2;
+}
+.jdl-spnsr img{
+	max-width: 500px;
+	min-width: 230px;
+	width: 100%;
+	height: auto;
+}
+.flex-container-spnsr {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	list-style: none;
+	position: absolute;
+	top: 45%;
+	right: 1rem;
+}
+
+#spnsr {
+	margin: 30px;
+	background: rgb(253, 5, 100);
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 25px;
+    height: 7rem;
+    line-height: 1.5;
+    padding-top: 3rem;
+    border-radius: 25px;
+}
+
+#carousel-spnsr{
+	margin-left: 0;
+	top: 8rem;
+}
+
+
+
+/*==Footer==================================================*/
+footer {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/bg-footer.png');
+    background-size: cover;
+	background-size: 100% 100%;
+	position: relative;
+}
+footer p {
+	color: white;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 375px;
+}
+.Logo{
+	width: 30%;
+	height: 20%;
+	position: absolute;
+	left: 0;
+	top: -30px;
+	z-index: 1;
+}
+.Logo img{
+	max-width: 250px;
+	width: 100%;
+	height: auto;
+	top: 0;
+}
+.balon-sosmed{
+	position: absolute;
+	right: 0;
+	top: 55px;
+	max-width: 450px;
+	width: 100%;
+	height: auto;
+	padding-left: 65px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-image: url('../images/ballon-contact.png');
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.sosmeditem img{
+	max-width: 75px;
+	width: 100%;
+	padding: 5px;
+}
+.contact-us{
+	position: absolute;
+	right: 50px;
+	top: -40px;
+	display: inline-block;
+}
+.contact-us{
+	position: absolute;
+	right: 90px;
+	top: -25px;
+}
+.contact-us img{
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+}
+.wm{
+	display: flex;
+	position: absolute;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 28rem;
+}
+@media only screen and (min-width: 430px) and (max-width: 1200px){
+	.wm{
+		left: 12rem;
+	}
+}
+@media only screen and (max-width: 600px){
+	.balon-sosmed{
+		max-width: 50%;
+		height: auto;
+		padding-bottom: 25px;
+		padding-left: 25px;
+	}
+	.sosmeditem img{
+		margin: auto;
+		max-width: 20%;
+	}
+	.contact-us{
+		max-width: 50%;
+		height: auto;
+		top: 7px;
+		right: 30px;
+	}
+	.wm{
+		left: 2rem;
+		font-size: 0.8rem;
+	}
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar {
+		position: absolute; 
+		z-index: 4;
+		position: fixed;
+        width: 100%;
+        top: 0;
+		left: 0;
+		margin-bottom: 80px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+		margin-right: 20px;
+		font-weight: bold;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin-bottom: -3px;
+    }
+
+
+
+
+}

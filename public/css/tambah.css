@@ -1,0 +1,41 @@
+.container .row{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.header {
+    height: 55vh;
+    padding-top: 4rem;
+    background-color: #003d33;
+}
+
+.about-title h1 {
+    padding: 70px 50px;
+    color: #F1C066;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.col-md-12 .btn-order{
+    padding: 0.5rem;
+    padding-inline: 3rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+.col-md-12 .btn:hover{
+    color: white;
+    outline:#003d33;
+    background-color: #003d33;
+}
+
+.col-sm-8 .card{
+    border-radius: 15px;
+    background-color: #DFB15C;
+}
+
+.card .card-body{
+    padding-top: 3rem;
+    color: #003d33;
+}

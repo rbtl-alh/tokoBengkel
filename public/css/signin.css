@@ -1,0 +1,42 @@
+body{
+    background-color: #003d33;
+}
+
+.card{
+    /* background: rgba(76, 175, 80, 0.3); */
+    background-image: linear-gradient(330deg, white, #003d33);
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.card-body{
+    color: white;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
+
+.signup a{
+    color: #F1C066;
+    text-decoration: none;
+}
+
+.row{
+    margin-top: 5rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #003d33;
+    outline: #003d33;
+    font-weight: 500;
+}
+
+.btn:hover{
+    color: white;
+    outline:#003d33;
+    background-color: #003d33;
+}

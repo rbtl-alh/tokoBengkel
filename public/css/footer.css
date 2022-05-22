@@ -1,0 +1,33 @@
+.footer{
+    background: #003d33;
+    padding: 2rem;
+    color: #F1C066;
+}
+
+.logo{
+    width: 100%;
+    max-width: 130px;
+}
+
+.icon{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 55px; 
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #F1C066;
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    padding: 1rem;
+    /* font-weight: 900; */
+    /* width: 100px; */
+    /* z-index: 1; */
+}
+
+.icon-text{
+    text-decoration: none;
+    /* border-radius: 40px !important;     */
+    /* padding: 4rem; */
+}

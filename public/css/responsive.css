@@ -1,0 +1,63 @@
+/* Responsive */
+
+@media (max-width: 800px) {
+    .material-icons.md-36 {
+        font-size: 34px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .img-size {
+        width: 32px;
+        margin-top: -1px;
+        margin-bottom: 2px;
+    }
+    .card-kategori {
+        /* padding: 2px; */
+        border-radius: 20px !important;
+        /* margin-left: -10px;
+        margin-right: -10px; */
+        /* display: flex;
+        justify-content: space-around; */
+    }
+    .card-layanan {
+        /* padding: 2px; */
+        border-radius: 20px !important;
+    }
+    .container .mx-auto{
+        display: flex;
+        /* padding-top: 5rem; */
+        justify-content: space-around;
+        /* padding-bottom: 3rem; */
+    }
+
+    .card-kategori img {
+        width: 80%;
+    }
+
+
+    .nav__text {
+        font-size: 10px;
+    }
+
+    .btn {
+        border-radius: 15px;
+    }
+
+    .btn h3 {
+        display: none;
+    }
+
+    .btn h4 {
+        font-size: 15px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .btn .small-sambat {
+        font-size: 11px;
+        padding-top: 4px;
+    }
+}

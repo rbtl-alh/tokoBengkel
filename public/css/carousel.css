@@ -1,0 +1,27 @@
+.owl-prev{
+    left: 0px;
+}
+.owl-next{
+    right: 0px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 15%;
+}
+.owl-next span, .owl-prev span{
+    font-size: 60px;
+    color: #706e6e;
+}
+.owl-theme .owl-nav [class="owl-"]:hover{
+    background-color: transparent;
+}
+.card{
+    height: 9rem;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 3rem;
+    border-radius: 25px;
+}
+.owl-carousel{
+    top: 22rem;
+}

@@ -1,0 +1,33 @@
+.header{
+    padding: 120px;
+    background: #003d33;
+
+}
+
+.text-center{
+    color: #F1C066;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.header .col-4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.row .col-auto{
+    padding-top: 2rem;
+}
+
+.row .form-control{
+    width: 350px;
+}
+
+.card-img-top{
+    height: 220px;
+}
+
+.container{
+    padding-top: 3rem;
+}

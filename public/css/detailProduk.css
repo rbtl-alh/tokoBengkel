@@ -1,0 +1,65 @@
+.rowmain{
+    padding-top: 2rem;
+}
+
+.img-fluid{
+    padding: 2rem;
+}
+
+.produt-buttonAddMinTrash{
+    margin: 0;
+    top: 4rem;
+    float: right;
+}
+.button{
+    position: absolute;
+    align-items: flex-end;
+    right: 1rem;
+    bottom: 10px;
+    /* margin-right: 2px; */
+}
+
+.produt-buttonAddMinTrash{
+    display: flex;
+    /* padding-top: 10rem; */
+    
+}
+
+.header{
+    padding: 120px;
+    background: #003d33;    
+}
+
+.title{
+    padding-top: 2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #F1C066;
+}
+
+.col-md-12 .btn-order{
+    padding: 0.5rem;
+    padding-inline: 3rem;
+    border-radius: 5px;
+    color: #003d33;
+    outline: #003d33;
+    font-weight: 500;
+}
+
+.col-md-12 .btn:hover{
+    color: white;
+    outline:#003d33;
+    background-color: #003d33;
+}
+
+.hitung{
+    border: solid #003d33 1px;
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cart{
+    background-color: #003d33;
+}

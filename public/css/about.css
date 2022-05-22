@@ -1,0 +1,36 @@
+.about-container {
+    margin: 0 auto ;
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.about-title {
+    padding: 120px;
+    background-color: #003d33;
+}
+
+.about-title h1 {
+    padding: 70px 50px;
+    color: #FFD180;
+    font-size: 5rem;
+}
+
+.about-wrapper {
+    margin: 0 auto ;
+    padding: 70px 30px;
+    width: 1200px;
+}
+
+.about-text-wrapper {
+    /* padding: 70px; */
+    padding-bottom: 1rem;
+    max-width: 500px;
+    float: left;
+    margin-right: 140px;
+    font-size: 1rem;
+}
+
+.imgimage{
+    padding-top: 5rem;
+    width: 200px;
+}

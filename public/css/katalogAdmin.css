@@ -1,0 +1,27 @@
+
+.header{
+    padding: 120px;
+    background: #003d33;
+}
+
+.header h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.text-center{
+    color: #F1C066;
+    font-size: 5rem;
+
+}
+
+.header .col-4{
+  
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card img{
+    height: 220px;
+}

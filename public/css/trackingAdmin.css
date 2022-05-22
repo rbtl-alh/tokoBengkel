@@ -1,0 +1,20 @@
+.container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.header{
+    padding: 120px;
+    background: #003d33;
+
+}
+.text-center{
+    color: #F1C066;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.header .col-4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}

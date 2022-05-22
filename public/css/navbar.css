@@ -1,0 +1,50 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background-color: blueviolet;
+}
+
+.navbar{
+    font-size: 0.9rem;
+    height: 4rem;
+}
+
+.logo{
+    width: 100px;
+    max-width: 100%;
+}
+
+.sign{
+    left: 5rem;
+    
+}
+
+@media (min-width: 992px) {
+    .navbar {
+		position: absolute; 
+		z-index: 4;
+		position: fixed;
+        width: 100%;
+        top: 0;
+		left: 0;
+		margin-bottom: 80px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+		margin-right: 20px;
+		font-weight: bold;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin-bottom: -3px;
+    }
+
+}

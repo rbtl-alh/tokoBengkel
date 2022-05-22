@@ -1,0 +1,148 @@
+.rowmain{
+    padding-top: 2rem;
+}
+
+.img-fluid{
+    padding: 2rem;
+}
+
+.produt-buttonAddMinTrash{
+    margin: 0;
+    top: 4rem;
+    float: right;
+}
+.button{
+    position: absolute;
+    align-items: flex-end;
+    right: 1rem;
+    bottom: 10px;
+    /* margin-right: 2px; */
+}
+
+.produt-buttonAddMinTrash{
+    display: flex;
+    /* padding-top: 10rem; */
+    
+}
+
+.header{
+    padding: 120px;
+    background: #003d33;    
+}
+
+.title{
+    padding-top: 2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #F1C066;
+}
+
+.col-md-12 .btn-order{
+    padding: 0.5rem;
+    padding-inline: 3rem;
+    border-radius: 5px;
+    color: #003d33;
+    outline: #003d33;
+    font-weight: 500;
+}
+
+.col-md-12 .btn:hover{
+    color: white;
+    outline:#003d33;
+    background-color: #003d33;
+}
+
+.hitung{
+    border: solid #003d33 1px;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kosong{
+    margin-left: 51rem;
+}
+
+/* .row-button{
+    padding: 3rem;
+} */
+
+/* .trolley-container {
+    height: min-content;
+    padding-top: 5rem;
+}
+
+.trolley-title {
+    height: 30vh;
+    background-color: #003d33;
+}
+
+.trolley-title h1 {
+    padding: 70px 50px;
+    color: #FFD180;
+    font-size: 5rem;
+}
+
+.trolley-wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.trolley-card {
+    margin: 20px auto !important;
+    width: 1000px;
+    background-color: #F1C066 !important;
+    border-radius: 20px !important;
+}
+
+.trolley-text-wrapper {
+    width: 700px;
+    float: left;
+}
+
+.trolley-image {
+    float: left;
+    margin: 30px 40px;
+    margin-top: 55px;
+}
+
+.produt-buttonAddMinTrash {
+    float: right;
+}
+
+.product-harga {
+    float: left;
+    margin-right: 200px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.btn-plus, .btn-min{
+    background-color: green !important;
+}
+
+.btn-trash{
+    background-color: red !important;
+}
+
+.fas {
+    padding: 10px;
+}
+
+.btn-card {
+    margin: 20px auto !important;
+    width: 1000px;
+    background-color: #F1C066 !important;
+    border-radius: 20px !important;
+}
+
+.btn-order-trolley{
+    margin-left: 400px;
+    background-color: #00695C;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+} */
